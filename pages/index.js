@@ -11,42 +11,32 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Oren Leung's Personal Website!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Contact me @{' '}
+          <code className={styles.code}>ok2leung@uwaterloo.ca</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/OrenLeung" className={styles.card}>
+            <h3>Github &rarr;</h3>
+            <p>Find in-depth information about the past projects and research.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://www.linkedin.com/in/oren-leung/" className={styles.card}>
+            <h3>Linkedin &rarr;</h3>
+            <p>Learn about my past education and experiences!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.linkedin.com/in/oren-leung/" className={styles.card}>
+            <h3>Resume &rarr;</h3>
+            <p>Developer @ FreeLance </p>
+            <p>SWE intern @ VoicAI</p>
+            <p>1A Software Eng @ uWaterloo</p>
           </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 
@@ -57,7 +47,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          {'<'}Oren Leung {'/>'}
         </a>
       </footer>
     </div>
